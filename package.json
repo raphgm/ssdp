@@ -8,10 +8,17 @@
     "test": "node app.js test",
     "dev": "node app.js"
   },
-  "keywords": ["devops", "nodejs", "docker"],
+  "keywords": [
+    "devops",
+    "nodejs",
+    "docker"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
